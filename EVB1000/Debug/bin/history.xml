@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -Map=ss_twr_init.map -O0 --gc-sections -lm -lgcc -lc -LC:/CooCox/dw1000_api_rev2p01/linkers -TC:/CooCox/dw1000_api_rev2p01/linkers/stm32_flash_256k_ram_64k.ld -g">
+      <target file="ss_twr_init.elf" lastModified="16e16613641">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="16e166115f1"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="16e16611749"/>
+         <source file="..\obj\core_cm3.o" lastModified="16e166117e5"/>
+         <source file="..\obj\stm32f10x_dbgmcu.o" lastModified="16e166118a1"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="16e1661195c"/>
+         <source file="..\obj\deca_device.o" lastModified="16e16611a85"/>
+         <source file="..\obj\deca_spi.o" lastModified="16e16611b70"/>
+         <source file="..\obj\stm32f10x_fsmc.o" lastModified="16e16611c4a"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="16e16611d06"/>
+         <source file="..\obj\stm32f10x_can.o" lastModified="16e16611e00"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="16e16611eda"/>
+         <source file="..\obj\stm32f10x_dac.o" lastModified="16e16611f9d"/>
+         <source file="..\obj\main.o" lastModified="16e16612123"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="16e166121df"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="16e166122c9"/>
+         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="16e16612327"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="16e166123e2"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="16e166124cd"/>
+         <source file="..\obj\deca_mutex.o" lastModified="16e16612588"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="16e16612673"/>
+         <source file="..\obj\deca_sleep.o" lastModified="16e1661271f"/>
+         <source file="..\obj\syscalls.o" lastModified="16e16612809"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="16e166128f3"/>
+         <source file="..\obj\stm32f10x_it.o" lastModified="16e1661299f"/>
+         <source file="..\obj\stm32f10x_cec.o" lastModified="16e16612a5b"/>
+         <source file="..\obj\port.o" lastModified="16e16612b45"/>
+         <source file="..\obj\stm32f10x_sdio.o" lastModified="16e16612c20"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="16e16612ceb"/>
+         <source file="..\obj\lcd.o" lastModified="16e16612db6"/>
+         <source file="..\obj\misc.o" lastModified="16e16612e62"/>
+         <source file="..\obj\stm32f10x_wwdg.o" lastModified="16e16612f1d"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="16e16612ff8"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="16e166130e2"/>
+         <source file="..\obj\deca_params_init.o" lastModified="16e1661317f"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="16e1661324a"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="16e16613305"/>
+      </target>
+   </processor>
+</history>
